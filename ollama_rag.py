@@ -32,7 +32,7 @@ FLASK_PORT = int(os.getenv("FLASK_PORT", 5000)) # Single port for the combined a
 FLASK_DEBUG_MODE = os.getenv("FLASK_DEBUG_MODE", "False").lower() in ("true", "1", "t")
 
 # RAG Konfiguration
-RAG_N_RESULTS = int(os.getenv("RAG_N_RESULTS", 3))
+RAG_N_RESULTS = int(os.getenv("RAG_N_RESULTS", 10))
 
 # --- Flask App Initialisierung ---
 app = Flask(__name__)

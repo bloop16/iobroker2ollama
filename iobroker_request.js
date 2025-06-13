@@ -3,7 +3,7 @@ const axios = require('axios');
 // Konfiguration
 const anfrageDatenpunkt = '0_userdata.0.ollama.Anfrage';
 const antwortDatenpunkt = '0_userdata.0.ollama.Antwort';
-const apiEndpoint = 'http://192.168.0.204:5001/tools/get_iobroker_data_answer';
+const apiEndpoint = 'http://SERVERIP:5000/tools/get_iobroker_data_answer';
 
 // Sicherstellen, dass die Datenpunkte existieren (optional, aber gute Praxis)
 if (!existsState(anfrageDatenpunkt)) {
