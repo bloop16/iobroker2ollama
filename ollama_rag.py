@@ -24,7 +24,7 @@ CHROMADB_COLLECTION_NAME = os.getenv("CHROMADB_COLLECTION_NAME", "iobroker_event
 # Ollama Konfiguration
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434") # Unified Ollama host
 OLLAMA_EMBEDDING_MODEL = os.getenv("OLLAMA_EMBEDDING_MODEL", "nomic-embed-text")
-TOOL_LLM_MODEL = os.getenv("TOOL_LLM_MODEL", "iobroker-assistant:latest") # LLM for the RAG tool
+TOOL_LLM_MODEL = os.getenv("TOOL_LLM_MODEL", "gemma3:4b") # LLM for the RAG tool
 
 # Flask Server Konfiguration
 FLASK_HOST = os.getenv("FLASK_HOST", "0.0.0.0")
