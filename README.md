@@ -1,5 +1,5 @@
 # iobroker2ollama
-gives Ollama the possibility to check for decided iobroker datapoints
+Gives Ollama the possibility to check for decided iobroker datapoints
 # ioBroker Ollama RAG Integration
 
 Dieses Projekt ermöglicht die Integration von ioBroker-Daten mit einem lokalen Ollama Large Language Model (LLM) unter Verwendung eines Retrieval Augmented Generation (RAG) Ansatzes. Änderungen an ausgewählten ioBroker-Datenpunkten werden erfasst, in einer Vektordatenbank (ChromaDB) gespeichert und können dann über ein Tool von einem LLM (z.B. über Open Web UI) abgefragt werden, um kontextbezogene Antworten zu Smart-Home-Ereignissen zu erhalten.
@@ -63,19 +63,7 @@ Diese Anleitung beschreibt die Installation von ChromaDB als Dienst auf einem Li
    pip install chromadb
    ````
    
-**d. ChromaDB als Dienst konfigurieren:**
-    Ich habe die Anleitung für die Installation von ChromaDB als Dienst unter Debian mit `systemd` vorbereitet. Hier ist der Abschnitt, der in Ihrer README.md-Datei aktualisiert werden soll:
-
-````markdown
-// ...existing code...
-**b. ChromaDB installieren**
-
-   Mit der aktivierten virtuellen Umgebung installieren Sie ChromaDB:
-   ````bash
-   pip install chromadb
-   ````
-   
-**d. ChromaDB als systemd-Dienst konfigurieren (Linux)**
+**c. ChromaDB als systemd-Dienst konfigurieren (Linux)**
 
    Diese Anleitung beschreibt, wie ChromaDB als `systemd`-Dienst auf einem Debian-basierten Linux-System eingerichtet wird.
 
