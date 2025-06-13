@@ -41,7 +41,7 @@ CORS(app) # Enable CORS for all routes, particularly for the tool endpoint
 # --- Globale Client-Variablen ---
 chroma_collection = None
 ollama_client = None
-
+ 
 # --- Client Initialisierungsfunktion ---
 def initialize_global_clients():
     global chroma_collection, ollama_client

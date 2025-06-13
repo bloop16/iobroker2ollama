@@ -2,7 +2,7 @@
 const axios = require('axios').default; // .default wird oft für CommonJS-Kompatibilität benötigt
 
 // Konfiguration
-const PYTHON_SERVER_URL_BASE = "http://192.168.0.206:5000"; // Basis-URL des Python-Servers
+const PYTHON_SERVER_URL_BASE = "http://192.168.0.204:5000"; // Basis-URL des Python-Servers
 const PYTHON_EVENT_ENDPOINT = `${PYTHON_SERVER_URL_BASE}/iobroker-event`;
 const PYTHON_HEALTH_ENDPOINT = `${PYTHON_SERVER_URL_BASE}/health`;
 const HTTP_TIMEOUT = 15000; // Timeout für HTTP-Anfragen in Millisekunden
